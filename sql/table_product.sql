@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS corp.product (
-    product_class_id CHAR(20), 
-    product_id CHAR(20)  NOT NULL, 
+    product_class_id INTEGER, 
+    product_id INTEGER  NOT NULL, 
     brand_name VARCHAR, 
     product_name VARCHAR, 
     SKU VARCHAR, 
