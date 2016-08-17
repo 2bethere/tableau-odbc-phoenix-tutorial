@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS corp.store (
-    store_id CHAR(20) NOT NULL, 
+    store_id INTEGER NOT NULL, 
     store_type VARCHAR, 
     region_id INTEGER, 
     store_name VARCHAR, 
