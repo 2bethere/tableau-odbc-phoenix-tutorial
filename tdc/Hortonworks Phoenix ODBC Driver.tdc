@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<connection-customization class='genericodbc' enabled='true' version='9.1'>
+	<vendor name='Phoenix' />
+	<driver name='Hortonworks Phoenix ODBC Driver' />
+	<customizations>
+		<customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='yes' />
+		<customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='yes' />
+		<customization name='CAP_SKIP_CONNECT_VALIDATION' value='yes' />
+		<customization name='CAP_SUPPRESS_DISPLAY_LIMITATIONS' value='yes' />
+		<customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+		<customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='yes' />
+		<customization name='CAP_ODBC_METADATA_FORCE_UNKNOWN_AS_STRING' value='yes' />
+		<customization name='CAP_ODBC_METADATA_SKIP_DESC_TYPE_NAME' value='yes' />
+		<customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='yes' />
+		<customization name='CAP_ODBC_UNBIND_AUTO' value='yes' />
+		<customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+		<customization name='CAP_ODBC_SUPPRESS_INFO_SCHEMA_STORED_PROCS' value='yes' />
+		<customization name='CAP_ODBC_GROUP_BY_DEGREE' value='yes' />
+		<customization name='CAP_ODBC_SORT_BY_DEGREE' value='yes' />
+		<customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+		<customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+		<customization name='CAP_QUERY_TOP_N' value='yes' />
+		<customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+		<customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='yes' />
+		<customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='yes' />
+	</customizations>
+</connection-customization>
