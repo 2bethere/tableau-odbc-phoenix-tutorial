@@ -1,0 +1,14 @@
+hh ()
+{
+    history | sed -r 's/^ [0-9]+  //'
+}
+
+addpath() {
+if [[ ! $(echo $PATH | grep $1) ]]
+then
+    echo "adding $1 (rc = $?)"
+    echo export PATH="$1:$PATH"
+    export PATH="$1:$PATH"
+fi
+
+}
